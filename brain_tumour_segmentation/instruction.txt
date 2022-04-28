@@ -1,8 +1,11 @@
-20220411-235337_Basic_Unet/checkpoint/checkpoint_last.pth
-is my best-performance deep supervision model(SUPV_87)'s model parameters to load when segmenting a new input scan
-20220406-184111_Basic_Unet/checkpoint/checkpoint_last.pth
-is my baseline model's trained model
-directory BraTS2020_TrainingData/ contains all preprocessed MRI scans(all modalities in 1 file)
+https://github.com/tinawytt/computer-vision/brain_tumour_segmentation/20220411-235337_Basic_Unet/checkpoint/checkpoint_last.pth
+is the storage url of my best-performance deep supervision model(SUPV_87)'s model parameters to load when segmenting a new input scan
+the directory of 20220406-184111_Basic_Unet/checkpoint should contain my baseline model's trained model,named checkpoint_last.pth.however, because of the large file uploading limit of github,I can not upload that to github.Alternatively, I uploaded it to pan.baidu.com and the link is:
+link:https://pan.baidu.com/s/1g6y5uFWSUI8GOTTPP_6_oA 
+Extraction code:pqhy
+
+directory BraTS2020_TrainingData/ should contain 80 preprocessed MRI scans(all modalities in 1 file),however I moved them to url:https://github.com/tinawytt/tinawytt/tree/main/BraTS2020_TrainingData/
+directory test/ should contain all modality of brain tumour MRI scans of the selected test case used for the live presentation of brain tumour segmentation of an unknown case
 
 run environment:
 installed package version：
